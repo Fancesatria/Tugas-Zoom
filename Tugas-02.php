@@ -9,17 +9,17 @@
 
     <form action="" method="get">
     
-    <label for="nama">Tanggal : </label>
-    <br> 
-    <input type="number" name="tgl" placeholder="Masukan Tanggal Lahir"> 
-    <br>
-    <br> 
-    <label for="Bulan">Bulan : </label>
-    <br> 
-    <input type="number" name="bln" placeholder="Masukan Bulan Lahir"> 
-    <br> 
-    <br>
-    <input type="submit" name="kirim" value="submit" id="" class="button"> 
+       <label for="nama">Tanggal : </label>
+       <br> 
+       <input type="number" name="tgl" placeholder="Masukan Tanggal Lahir"> 
+       <br>
+       <br> 
+       <label for="Bulan">Bulan : </label>
+       <br> 
+       <input type="number" name="bln" placeholder="Masukan Bulan Lahir"> 
+       <br> 
+       <br>
+       <input type="submit" name="kirim" value="submit" id="" class="button"> 
           
     </form>
     </div>
