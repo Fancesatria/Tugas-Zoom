@@ -1,8 +1,47 @@
-<?php 
+
 
     
-    $bln = 12;
-    $tgl = 23;
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2 - switch case</title>
+</head>
+<body>
+
+    <form action="" method="get">
+    
+    <label for="nama">Tanggal : </label>
+    <br> 
+    <input type="number" name="tgl" placeholder="Masukan Tanggal Lahir"> 
+    <br>
+    <br> 
+    <label for="Bulan">Bulan : </label>
+    <br> 
+    <input type="number" name="bln" placeholder="Masukan Bulan Lahir"> 
+    <br> 
+    <br>
+    <input type="submit" name="kirim" value="submit" id="" class="button"> 
+          
+    </form>
+    </div>
+    
+</body>
+</html>
+
+<?php
+    
+    //Cek isi variabel apakah ada nilainya dengan menggunakan :
+    if ( isset ($_GET['bln']) && isset($_GET['tgl']) ) {
+    
+    //Variabel
+    $bln = $_GET['bln'];
+    $tgl = $_GET['tgl'];
+
+    //Jika input ada yang tak diisi atau kosong dan tak sesuai pilihan didalam switch case mak outputnya :
+    $hasil = 'SALAH!';
+    
 
     switch ($bln) {
         case 1:
